@@ -5,8 +5,6 @@ import ContactList from "./components/ContactList/ContactList";
 import Filter from "./components/Filter/Filter";
 import "./App.css";
 
-uuidv4();
-
 class App extends Component {
   state = {
     contacts: [
